@@ -13,7 +13,7 @@ const Home = () => {
           initial={{ x: -200, opacity: 0 }}
           transition={{ type: 'spring', duration: 0.8 }}
           animate={{ x: 0, opacity: 100 }}
-          className='md:mt-36'
+          className='md:mt-24'
         >
           get <br /> details <br /> of <br /> every
         </motion.h4>
