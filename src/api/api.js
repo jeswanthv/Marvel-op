@@ -3,7 +3,7 @@ import axios from 'axios';
 //get data using startingWithName
 export const search = async (name) => {
   const response = await axios.get(
-    `http://gateway.marvel.com/v1/public/characters?nameStartsWith=${name}&apikey=${process.env.REACT_APP_PUBLIC_KEY}&hash=${process.env.REACT_APP_HASH}`
+    `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${name}&apikey=${process.env.REACT_APP_PUBLIC_KEY}&hash=${process.env.REACT_APP_HASH}`
   );
   return response.data;
 };
