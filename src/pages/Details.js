@@ -31,7 +31,7 @@ const Details = (props) => {
         initial={{ top: -400 }}
         animate={{ top: 0 }}
         transition={{ type: 'spring' }}
-        className=' opacity-90 absolute top-0 left-0 z-0 w-full h-3/4 md:h-2/4 object-cover '
+        className=' opacity-70 absolute top-0 left-0 z-0 w-full h-3/4 md:h-2/4 object-cover '
         style={{ zIndex: '-1' }}
         src={image}
         alt=''

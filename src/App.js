@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <div className='container py-4 px-8 mx-auto'>
+        <div className='container py-4 px-4 md:px-8 mx-auto'>
           <Route exact path='/' component={home} />
           <Route exact path='/feed' component={feed} />
           <Route exact path='/feed/:name/:id' component={details} />
