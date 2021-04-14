@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import home from './pages/Home';
+import feed from './pages/Feed';
+import details from './pages/Details';
+import comics from './pages/Comics';
+import series from './pages/Series';
+import about from './pages/about';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <div className='container mx-auto '>
+          <Navbar />
+          <Route exact path='/' component={home} />
+          <Route exact path='/feed' component={feed} />
+          <Route exact path='/feed/:name/:id' component={details} />
+          <Route exact path='/feed/:name/:id/comics' component={comics} />
+          <Route exact path='/feed/:name/:id/series' component={series} />
+          <Route exact path='/about' component={about} />
+        </div>
+      </Switch>
+    </Router>
   );
 }
 
