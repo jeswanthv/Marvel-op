@@ -45,7 +45,6 @@ const Series = (props) => {
                 >
                   <img
                     className='mb-3  object-cover rounded-lg'
-                    style={{ minHeight: '700px' }}
                     src={image}
                     alt=''
                   />
