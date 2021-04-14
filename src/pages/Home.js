@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const Home = () => {
   return (
     <div className='grid lg:grid-cols-2 m-8 mx-auto text-left'>
-      <div className='ml-8 font-semibold text-4xl text-white tracking-widest '>
+      <div className='ml-8 font-semibold text-2xl text-white tracking-widest '>
         <motion.h4
           initial={{ x: -200, opacity: 0 }}
           transition={{ type: 'spring', duration: 0.8 }}
@@ -18,7 +18,7 @@ const Home = () => {
           get <br /> details <br /> of <br /> every
         </motion.h4>
 
-        <p className='mt-6 text-secondary font-bold text-4xl md:text-6xl'>
+        <p className='mt-6 text-secondary font-bold text-2xl md:text-3xl'>
           Super
           <Typical
             steps={['Hero', 3000, 'Villain', 2000, 'Human', 2000]}
@@ -26,7 +26,7 @@ const Home = () => {
           />
         </p>
         <Link to='/feed'>
-          <button className='text-sm md:text-xl bg-primary rounded-full p-3  md:w-1/3 mt-10 transition duration-500 ease-in-out hover:bg-secondary transform hover:scale-110 text-white font-thin '>
+          <button className='text-sm bg-primary rounded-full p-3  md:w-1/3 mt-10 transition duration-500 ease-in-out hover:bg-secondary transform hover:scale-110 text-white font-thin '>
             Search
           </button>
         </Link>
@@ -37,7 +37,7 @@ const Home = () => {
           initial={{ x: 200, opacity: 0 }}
           transition={{ duration: 1.5 }}
           animate={{ x: 0, opacity: 100 }}
-          className='relative z-10'
+          className='relative z-10 w-4/5'
           src={deadpool}
           alt=''
         />
