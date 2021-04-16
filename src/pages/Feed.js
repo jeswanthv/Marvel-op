@@ -92,7 +92,7 @@ const Feed = () => {
         <h1 className='text-white text-center mt-10 p-10'>
           If you don't get the results
           <br />
-          search for relavant words.for ex:For Ironman search 'iron'
+          search for relevant words.for ex:For Ironman search 'iron'
         </h1>
       )}
     </>
