@@ -1,7 +1,6 @@
 # MARVEL OP
 
-![marvel website mockup](https://user-images.githubusercontent.com/48980002/116190176-c4ba6a80-a747-11eb-938d-af5c7adadde2.png)
-
+![screenshot](https://user-images.githubusercontent.com/48980002/116190811-ec5e0280-a748-11eb-8cd5-01a38486c9f3.png)
 ## About
 
 A website where we can search for every Marvel characters and see their latest releases on comics and series collection.
