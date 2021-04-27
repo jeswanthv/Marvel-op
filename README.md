@@ -1,3 +1,18 @@
+# MARVEL OP
+
+## About
+
+A website where we can search for every Marvel characters and see their latest releases on comics and series collection.
+
+
+## Technologies/packages Used 🌐
+
+- ReactJs
+- Axios
+- TailwindCss
+- Framer-motion
+- Marvel-api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
